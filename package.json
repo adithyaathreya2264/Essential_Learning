@@ -1,0 +1,51 @@
+{
+  "name": "essential_learning",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "eas:login": "eas login",
+    "eas:init": "eas init",
+    "build:android": "eas build --platform android --profile production",
+    "build:android:preview": "eas build --platform android --profile preview"
+  },
+  "dependencies": {
+    "@expo-google-fonts/caveat": "^0.4.2",
+    "@expo-google-fonts/inter": "^0.4.2",
+    "@expo-google-fonts/source-serif-4": "^0.4.1",
+    "@expo/vector-icons": "^15.0.3",
+    "babel-preset-expo": "~55.0.8",
+    "expo": "^55.0.28",
+    "expo-constants": "~55.0.17",
+    "expo-device": "~55.0.19",
+    "expo-document-picker": "~55.0.15",
+    "expo-file-system": "~55.0.24",
+    "expo-font": "~55.0.8",
+    "expo-linking": "~55.0.16",
+    "expo-notifications": "~55.0.26",
+    "expo-pdf-text-extract": "^1.1.0",
+    "expo-router": "~55.0.17",
+    "expo-splash-screen": "~55.0.23",
+    "expo-sqlite": "~55.0.18",
+    "expo-status-bar": "~55.0.6",
+    "expo-system-ui": "~55.0.20",
+    "js-sha256": "^1.0.0",
+    "react": "19.2.8",
+    "react-native": "0.83.10",
+    "react-native-litert-lm": "^0.6.0",
+    "react-native-nitro-modules": "^0.36.5",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.23.0",
+    "ts-fsrs": "^5.4.1"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/react": "~19.2.10",
+    "eas-cli": "^22.0.0",
+    "typescript": "~5.9.2"
+  }
+}
