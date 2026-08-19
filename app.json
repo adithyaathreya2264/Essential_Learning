@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Essential_Learning",
+    "slug": "Essential_Learning",
+    "scheme": "essentiallearning",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FAF7F2"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FAF7F2"
+      },
+      "package": "com.adithyaathreya.essentiallearning",
+      "versionCode": 3,
+      "permissions": [
+        "POST_NOTIFICATIONS",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.INTERNET"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-sqlite",
+      "expo-splash-screen",
+      "expo-document-picker",
+      "expo-file-system",
+      "expo-notifications",
+      "react-native-litert-lm"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1c9b37c3-b3cb-4641-9a83-37e4ea61932c"
+      }
+    },
+    "owner": "adithya-athreya"
+  }
+}
