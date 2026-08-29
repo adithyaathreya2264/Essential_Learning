@@ -89,4 +89,4 @@ gh release create vX.Y.Z ./<downloaded>.apk \
 
 ## License
 
-MIT — see [LICENSE](./LICENSE).
+Apache Licence 2.0 — see [LICENSE](./LICENSE).
