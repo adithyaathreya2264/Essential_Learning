@@ -39,7 +39,7 @@ This was the hardest part of the project, and the part I'd rather document hones
 
 ## Install
 
-1. Download the latest `.apk` from this repo's [Releases](../../releases) page.
+1. Download the latest `.apk` from this repo's [Releases](https://github.com/adithyaathreya2264/Essential_Learning/releases/tag/Essential-Learning) page.
 2. On your Android phone, enable "Install unknown apps" for your browser or file manager if prompted.
 3. Open the downloaded APK to install.
 4. On first launch, the app checks your device and recommends a model (Qwen 3 0.6B for lower-RAM phones, Gemma E2B for most phones, E4B for higher-end devices). Download happens over Wi-Fi in the background — this is the only setup step that needs a connection.
